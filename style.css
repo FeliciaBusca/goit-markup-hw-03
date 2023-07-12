@@ -8,7 +8,11 @@
   --background-accent-color: #2f303a;
   --hero-heading-color: white;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: var(--text-font-family);
   color: var(--text-color);
@@ -16,6 +20,7 @@ body {
 
 .container {
   width: 1600px;
+  margin: 0 auto;
 }
 .logo-web {
   color: var(--accent-color);
@@ -160,6 +165,7 @@ footer address .contact-link-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .hero-heading {
   width: 696px;
@@ -241,6 +247,7 @@ footer address .contact-link-footer {
   width: 100%;
   padding-left: 215px;
   padding-right: 215px;
+  gap: 30px;
 }
 .individual-card {
   width: 270px;
